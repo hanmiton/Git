@@ -88,3 +88,26 @@ Manual Merge
 	tratar de trabajar en documetnos diferente spra evitar manaul merge
 --amend
 	espara rectificar en el ulitmo commit
+git commit -am 
+	 para no tener que hacer el add y subir directamente los cambios
+amend
+	Se peude hacer un cambio al ultimo commit
+	git commit -m "......" --amend
+git log --decorate
+	indica en que punto se encutnra el HEAD
+git log --stat
+	te indica que lineas fueron las que se modificaaron
+git log -p 
+	te indica q se modifico pero con un div
+git log --pretty=format:"%cn, hizo comi dia %cd"
+	para armar mensajes con lso commits
+git log -#
+	te muestra los ultimos commits
+git log --after="today"
+git log --before="today"
+git log --grep="mensaje"
+	bueno para encontrar palabras dentro de los commits
+git log -S"git"
+	busca dentro del codigo 
+WORKFLOWS
+	como logramos que varios profesionasl trabajen sobre un proyecto sin matrase
