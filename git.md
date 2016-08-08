@@ -76,18 +76,15 @@ Fusiones
 Rebase
 	Los commits se ubican adelante del ultimo commit de master
 	Pero master sigue en el ultimo commit
-<<<<<<< HEAD
 
-Probando git branch
-=======
-Crear ramas
 	git checkout -b experimental
-
-aaa
->>>>>>> experimental
+al
 
 Git merge
 	te ubicas en la rama a la cual vas a realizar el merge
 	git merge experimental (especificamos la rama que queremos que se haga merge)
 Manual Merge
-git branch -d experimental (apra borrar rama)(no sepude obrra si no se a ehcho una fusion)
+	git branch -d experimental (apra borrar rama)(no sepude obrra si no se a ehcho una fusion)
+	tratar de trabajar en documetnos diferente spra evitar manaul merge
+--amend
+	espara rectificar en el ulitmo commit
