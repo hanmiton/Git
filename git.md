@@ -129,4 +129,10 @@ Creando lalve ssh key
 	-4096 # nuemro de bit s para la lalve
 git remote add origin <donde se queire conectar>
 probando key des peus de lcone
+Proeycto verado por tu organizcion o equipos
+	Son porpietaro sdel proyecto 
+	todo suben sin pedir permisos
+git fetch
+	nos permite ver si exiten cambios en un repositorio
+	sirve cuando se trabaja en grupos o diferenets computadoras
 
