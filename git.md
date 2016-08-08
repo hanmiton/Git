@@ -85,3 +85,9 @@ Crear ramas
 
 aaa
 >>>>>>> experimental
+
+Git merge
+	te ubicas en la rama a la cual vas a realizar el merge
+	git merge experimental (especificamos la rama que queremos que se haga merge)
+Manual Merge
+git branch -d experimental (apra borrar rama)(no sepude obrra si no se a ehcho una fusion)
