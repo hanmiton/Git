@@ -141,3 +141,5 @@ paso git fetch
 	git merge origin/master
 	git push origin master
 
+fetch
+probada funcionalidad
