@@ -76,5 +76,12 @@ Fusiones
 Rebase
 	Los commits se ubican adelante del ultimo commit de master
 	Pero master sigue en el ultimo commit
+<<<<<<< HEAD
 
 Probando git branch
+=======
+Crear ramas
+	git checkout -b experimental
+
+aaa
+>>>>>>> experimental
