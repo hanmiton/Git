@@ -111,3 +111,21 @@ git log -S"git"
 	busca dentro del codigo 
 WORKFLOWS
 	como logramos que varios profesionasl trabajen sobre un proyecto sin matrase
+GTIHUB
+	servicoi de hosting apra repositorios
+	2 bases
+		Exploracion(Clone)
+		Colaboración
+GITHUB EXPLORER
+	git clone 
+		 para clonar un repositroio
+conexion via ssh
+	github
+		settings
+			ssh keys
+Creando lalve ssh key
+	ssh-keygen -t -rsa -b 4096 -C "hanmilton_12@outlook.com"
+	-rsa algoritmo que se va usar par generar la llave
+	-4096 # nuemro de bit s para la lalve
+git remote add origin <donde se queire conectar>
+
