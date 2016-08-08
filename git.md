@@ -54,8 +54,25 @@ git checkout [commit-id]
 	con esto se crea un brach distinto si se desea guradar lso cambios
 Analizando un commit
 	parent
+		parent es el padre de dicho commit
 	Author
 	Date
 	Commit ID (SHA)
-	
-	
+
+Ramas
+	Una linea laterna de itempo, enl a historia de nuestor reposritorio
+	Ideas-Features-BugFixes
+Comando para poder commits personalizado
+	git config --global alias.nicelog 'log --oneline --graph --all'
+Git checkout [branch]
+	te permite cambair de ramo ejemplo master-experimental
+Fusiones
+	git merge experimentasl (nos pemite realczar las fusiones)
+	Soluciones de conflictos
+		Fast-Forward
+			cuando se editan distintons tipos de archivos y se desea hacer el merge
+		Manual-Merge
+			Cuando se ataca la misma linea de codigo y esto toca hacerlo manual
+Rebase
+	Los commits se ubican adelante del ultimo commit de master
+	Pero master sigue en el ultimo commit
