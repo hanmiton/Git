@@ -135,4 +135,9 @@ Proeycto verado por tu organizcion o equipos
 git fetch
 	nos permite ver si exiten cambios en un repositorio
 	sirve cuando se trabaja en grupos o diferenets computadoras
+	se descarga en una rama escondida origni/master
+paso git fetch
+	git fetch origin
+	git merge origin/master
+	git push origin master
 
