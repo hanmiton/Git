@@ -128,5 +128,5 @@ Creando lalve ssh key
 	-rsa algoritmo que se va usar par generar la llave
 	-4096 # nuemro de bit s para la lalve
 git remote add origin <donde se queire conectar>
-probando key
+probando key des peus de lcone
 
