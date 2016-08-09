@@ -49,3 +49,16 @@ git pull
 	fetch+merge (upstream)
 Proyect Management
 	crear una oganizacion para el proyecto q se piensa deasarrollar
+Añadir website buena practica
+README.md
+	Blog Universidad
+	[Descripción del Proyecto]
+	[Instalacion]
+		-requisitos
+		-version
+		-encargados del proyecto
+	[Usage]
+		como hacer uso
+	[Documentacion]
+	[roadmap]
+	[licencia]
