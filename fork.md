@@ -26,3 +26,26 @@ Comandos fork
 git remote -v
 	para ver los remtoos que se encuentran conectados
 0.34
+Deployment 
+	lelvar el codigo a propducion
+Ambientes
+	Development
+		area local odnde se esta trabajando (fuera internet)
+	Production
+		servidro es donde se sube la app web
+Ambientes
+	Development
+	Production
+	Testing
+		Un amgiente donde se hacen todas la preubas
+	Staging
+		Es un servidor experimental
+Desarrollador principal 
+	Solo necesita 2 ramas
+		master 
+		origin/master
+git pull
+	descargar cambios repositorio principal
+	fetch+merge (upstream)
+Proyect Management
+	crear una oganizacion para el proyecto q se piensa deasarrollar
