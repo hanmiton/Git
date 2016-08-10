@@ -76,7 +76,120 @@ Fusiones
 Rebase
 	Los commits se ubican adelante del ultimo commit de master
 	Pero master sigue en el ultimo commit
-Crear ramas
-	git checkout -b experimental
 
-aaa
+	git checkout -b experimental
+al
+
+Git merge
+	te ubicas en la rama a la cual vas a realizar el merge
+	git merge experimental (especificamos la rama que queremos que se haga merge)
+Manual Merge
+	git branch -d experimental (apra borrar rama)(no sepude obrra si no se a ehcho una fusion)
+	tratar de trabajar en documetnos diferente spra evitar manaul merge
+--amend
+	espara rectificar en el ulitmo commit
+git commit -am 
+	 para no tener que hacer el add y subir directamente los cambios
+amend
+	Se peude hacer un cambio al ultimo commit
+	git commit -m "......" --amend
+git log --decorate
+	indica en que punto se encutnra el HEAD
+git log --stat
+	te indica que lineas fueron las que se modificaaron
+git log -p 
+	te indica q se modifico pero con un div
+git log --pretty=format:"%cn, hizo comi dia %cd"
+	para armar mensajes con lso commits
+git log -#
+	te muestra los ultimos commits
+git log --after="today"
+git log --before="today"
+git log --grep="mensaje"
+	bueno para encontrar palabras dentro de los commits
+git log -S"git"
+	busca dentro del codigo 
+WORKFLOWS
+	como logramos que varios profesionasl trabajen sobre un proyecto sin matrase
+GTIHUB
+	servicoi de hosting apra repositorios
+	2 bases
+		Exploracion(Clone)
+		Colaboración
+GITHUB EXPLORER
+	git clone 
+		 para clonar un repositroio
+conexion via ssh
+	github
+		settings
+			ssh keys
+Creando lalve ssh key
+	ssh-keygen -t -rsa -b 4096 -C "hanmilton_12@outlook.com"
+	-rsa algoritmo que se va usar par generar la llave
+	-4096 # nuemro de bit s para la lalve
+git remote add origin <donde se queire conectar>
+probando key des peus de lcone
+Proeycto verado por tu organizcion o equipos
+	Son porpietaro sdel proyecto 
+	todo suben sin pedir permisos
+git fetch
+	nos permite ver si exiten cambios en un repositorio
+	sirve cuando se trabaja en grupos o diferenets computadoras
+	se descarga en una rama escondida origni/master
+paso git fetch
+	git fetch origin
+	git merge origin/master
+	git push origin master
+
+fetch
+probada funcionalidad
+
+fork 
+	cuando no se es dueño del repositorio
+	cuando se queire ahcer propuestas a tercros
+	Existen 2 repositorios
+		repositorio original
+		repositorio forked (replica del original)
+
+paos para fork
+	upstrema 
+		rama vinculo que se hace con el repo principal
+	conecntar via remoto 
+		git origin y upstream
+	depues hacer un getch
+		de origin/master y uptream/master
+	se tendran dos ramas escondigas
+		origin/master
+		upstream/master
+		master
+	primero hacer un push para subir al forked repositroio
+	hacemos pull para hacer la propuesta para la propuesta al repositorio
+Comandos fork
+	git remote add origin proyecto forked
+	git remote add upstream proyeto principal
+	git fetch upstrema
+	git merger origin/upstrema
+	git fecth origing
+	git merge origin/master
+	---cambios loca
+	git fetch upstream
+	git merge origin/upstream
+	git push origin master
+
+git remote -v
+	para ver los remtoos que se encuentran conectados
+0.34
+
+touch 
+config
+ ssh-add -D
+ 	sirve para borrar todos lodatos que hayan qudado en cache
+ Siempre hacer un fetch antes de trabajar 
+ git branch -a 
+ 	para ver todas las ramas existentes
+ git checkout resposive desig
+ 	para cambiar de rama y lo descarga (si se a realizado fecth)
+ push a una rama
+ 	git push orign [nombre-rama]
+ elimimnar remote
+ 	git remote rm origin

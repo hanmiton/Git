@@ -1,0 +1,3 @@
+git fetch origin
+	git merge origin/master
+	git push origin master
