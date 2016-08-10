@@ -62,3 +62,62 @@ README.md
 	[Documentacion]
 	[roadmap]
 	[licencia]
+MIlstone 
+	lineas de progreso
+		Desarrollo de landing
+wikis
+	se puede usar pra escribir toda la historio del proeycot
+imgur.com 
+	para subir imagenes rapidas
+pulse
+Deployment
+	tiener que ser totalmetne libre 
+	es como llevo mi poryecto a internet
+Despliegue
+	Manual Deployment
+		despliegue de forma manual
+	Se hace un despliegue en el q hay menor trafico
+Servidores
+	hostgator
+	digiralocena
+	aws
+	webfaction
+INgresar servidor
+	ssh urlservidro para ingresar por ssh
+	ls (buscamos la carpeta donde subir las apps)
+	cd webapps (entrando a los proeyctos qu ese encuentran alojados)
+Servidore sy git
+	cuando el servidor no tiene gi tse tiene que instlar git
+Conectando servidor a host github
+	Primera forma
+		git init 
+		git clone [url_repositorio]
+rm -rf 
+	comando para borrar carpetas
+	Segunda forma
+		git remote add orign [url]
+		git pull origin master(fetch+merge)
+git pull
+	git fetch + git merge
+Amazon Web SErvice
+	.pem (ver qeu es)
+	load balancer 
+		guardias antes de entrar a la intancia
+		porq puertos cada personas
+Instancia aws
+	Priemro crear keypair
+	Security Groups
+		Crear gurpo de seguridad
+	Crear load balancer
+	Creamos la instancia
+GitHooks
+	sirven para automatizar el deployment
+Webfaction
+namecheap 
+	para comrpar dominios
+depende del hosting para ver donde se tiene que almacenar las apps
+
+deployment
+	se hace un git pull desde el servidro por ssh y asi se despliega la app en poroduccion
+load balancer
+	es como un guardia q decide ocmo distribuir al servidro o Servidores
