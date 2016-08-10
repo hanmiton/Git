@@ -179,3 +179,17 @@ Comandos fork
 git remote -v
 	para ver los remtoos que se encuentran conectados
 0.34
+
+touch 
+config
+ ssh-add -D
+ 	sirve para borrar todos lodatos que hayan qudado en cache
+ Siempre hacer un fetch antes de trabajar 
+ git branch -a 
+ 	para ver todas las ramas existentes
+ git checkout resposive desig
+ 	para cambiar de rama y lo descarga (si se a realizado fecth)
+ push a una rama
+ 	git push orign [nombre-rama]
+ elimimnar remote
+ 	git remote rm origin
